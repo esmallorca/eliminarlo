@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OOP</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="copy\**" />
+    <EmbeddedResource Remove="copy\**" />
+    <None Remove="copy\**" />
+  </ItemGroup>
+
+</Project>
