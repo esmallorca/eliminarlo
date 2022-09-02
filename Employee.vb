@@ -2,7 +2,7 @@
 
 
 
-    Private  _employeeId As Integer?
+    Public _employeeId As Integer?
     Private _name, _secondName As String
 
     Public Property EmployeeId() As Integer?
