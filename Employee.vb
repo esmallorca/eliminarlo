@@ -38,6 +38,6 @@
 
 
     Public Overrides Sub Show()
-        Console.WriteLine($"Name: {Name} - SecondName: {SecondName} - Employeeid: {EmployeeId}")
+        Console.WriteLine($"Puede SER SecondName: {SecondName} - AlgoDeName: {Name} - Employeeid: {EmployeeId}")
     End Sub
 End Class
