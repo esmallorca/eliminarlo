@@ -12,4 +12,8 @@
     <None Remove="copy\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibraryInC\MyLibraryInC.csproj" />
+  </ItemGroup>
+
 </Project>
